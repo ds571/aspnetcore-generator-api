@@ -29,3 +29,8 @@ Access this repository: http://bit.ly/aspnetcoredocker
     - Provide GitHub repository URL
     - provide Username and Password
     - Click 'Proceed'
+
+## Testing Connection to Deployed Container
+- Connecting to deployed container:
+    1) in CMD, type: docker run --rm -it \<registryName>:\<portNumber>/\<projectName>:tag
+        - Example: docker run --rm -it my-registry:55000/gen:ci-12
