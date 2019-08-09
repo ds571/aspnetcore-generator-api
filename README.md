@@ -33,6 +33,7 @@ Access this repository: http://bit.ly/aspnetcoredocker
 ## Testing Connection to Deployed Container
 - Connecting to deployed container:
     1) in CMD, type: 
-        - docker run --rm -it -p \<accessPort>:\<containerPort> \<registryName>:\<portNumber>/\<projectName>:tag
+        - docker run --rm -it -p \<accessPort>:\<containerPort> \<REPOSITORY>:\<TAG>
+        - You can verify the images available to build from (into containers) by typing: docker image ls
         - Example: docker run --rm -it -p 8080:80 my-registry:55000/gen:ci-12
     2) To test, go to "localhost:8080" in web browser.
