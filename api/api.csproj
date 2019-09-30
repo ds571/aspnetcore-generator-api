@@ -5,6 +5,7 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="infra\jenkins\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
