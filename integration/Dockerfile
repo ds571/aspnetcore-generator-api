@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2
 WORKDIR /integration
-
+##test
 COPY integration.csproj .
 RUN dotnet restore
 
